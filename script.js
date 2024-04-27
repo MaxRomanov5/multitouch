@@ -15,3 +15,6 @@ return
 
   screen.orientation.lock('portrait-primary');
   
+  document.querySelector('#box').addEventListener('dblclick', function(el) {
+    el.preventDefault();
+  });

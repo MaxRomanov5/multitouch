@@ -19,5 +19,13 @@ html, body {
       }
 
       body, html {
+        -ms-user-select: none;
+        -webkit-user-select: none;
         user-select: none;
+    }
+
+    * {
+        -ms-touch-action: manipulation;
+        -webkit-touch-action: manipulation;
+        touch-action: manipulation;
     }
