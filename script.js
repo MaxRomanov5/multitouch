@@ -14,3 +14,4 @@ return
   }, false);
 
   screen.orientation.lock('portrait-primary');
+  
