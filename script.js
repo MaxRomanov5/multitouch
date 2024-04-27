@@ -12,3 +12,5 @@ return
 
    elTotal.textContent = total
   }, false);
+
+  screen.orientation.lock('portrait-primary');
